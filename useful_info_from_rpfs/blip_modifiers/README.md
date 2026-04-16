@@ -371,7 +371,7 @@ BLIP_MODIFIER_PREDATOR_5 | **Conditional&nbsp;Visibility**:&nbsp;Fade when preda
 BLIP_MODIFIER_PREDATOR_10 | **Conditional&nbsp;Visibility**:&nbsp;Fade when predator is damaged<br>- Fade-in: 150ms, Stay: 10,000ms, Fade-out: 1,500ms<br>**Sprite**:&nbsp;`BLIP_PREDATOR`
 BLIP_MODIFIER_PULSE_FOREVER | **Scale&nbsp;Pulse**:&nbsp;Pulse forever
 BLIP_MODIFIER_PULSE_THREE_TIMES | **Scale&nbsp;Pulse**:&nbsp;Pulse 3 times
-BLIP_MODIFIER_PVP_TARGET | **Conditional&nbsp;Styles**:&nbsp;When PvP target tracked:<br>  - Apply `BLIP_MODIFIER_PVP_TARGET_TRACKED`<br>  - Remove `BLIP_MODIFIER_PVP_TARGET`<br>**Conditional&nbsp;Visibility**:&nbsp;Fade when PvpTargetSeen<br>- Fade-in: 150ms, Stay: 20,000ms, Fade-out: 1,500ms
+BLIP_MODIFIER_PVP_TARGET | **Conditional&nbsp;Styles**:&nbsp;When PvP target tracked:<br>  - Apply `BLIP_MODIFIER_PVP_TARGET_TRACKED`<br>  - Remove `BLIP_MODIFIER_PVP_TARGET`<br>**Conditional&nbsp;Visibility**:&nbsp;Fade when PvP target seen<br>- Fade-in: 150ms, Stay: 20,000ms, Fade-out: 1,500ms
 BLIP_MODIFIER_PVP_TARGET_TRACKED | **Conditional&nbsp;Styles**:&nbsp;When PvP target tracked:<br>None<br>Otherwise:<br>  - Apply `BLIP_MODIFIER_PVP_TARGET`<br>  - Remove `BLIP_MODIFIER_PVP_TARGET_TRACKED`
 BLIP_MODIFIER_RACE_CHECKPOINT_ALT | **Color**:&nbsp;`COLOR_ORANGE`
 BLIP_MODIFIER_RADAR_EDGE_ALWAYS | **Range**:&nbsp;Always
@@ -395,7 +395,7 @@ BLIP_MODIFIER_TRACKING | **Tracking**:&nbsp;Tracking enabled<br>- Interval: 1,50
 BLIP_MODIFIER_TRAIN_MISSION | **Range**:&nbsp;Always
 BLIP_MODIFIER_UNDISCOVERED | **Color**:&nbsp;`COLOR_RADAR_UNDISCOVERED`
 BLIP_MODIFIER_URGENT | **Scale&nbsp;Pulse**:&nbsp;Pulse forever
-BLIP_MODIFIER_URGENT_ALERT | **BM_TimedPopStyle**:&nbsp;Apply **BLIP_MODIFIER_URGENT_ALERT_INTERNAL** for **11,500ms**
+BLIP_MODIFIER_URGENT_ALERT | **Timed&nbsp;Style**:&nbsp;Apply `BLIP_MODIFIER_URGENT_ALERT_INTERNAL` for 11,500ms
 BLIP_MODIFIER_URGENT_ALERT_INTERNAL | **Category**:&nbsp;`OBJECTIVE`<br>**Range**:&nbsp;Always<br>**Scale&nbsp;Pulse**:&nbsp;Pulse 5 times
 BLIP_MODIFIER_VERYHIGH_CATEGORY | **Category**:&nbsp;`VIP`
 BLIP_MODIFIER_WANTED_PULSE_1 | **Alpha&nbsp;Pulse**:&nbsp;Pulse forever<br>- Duration: 2,500ms, Alpha: 0.5-1, Transition: Abrupt
