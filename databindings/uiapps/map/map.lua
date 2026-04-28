@@ -12,12 +12,13 @@ local MAP_CARDS <const> = {
     [1] = {
         type = "map_card_mp_playlist",
         title = "STABLE",
-        subtitle = "Valentine Stables",
+        subtitle = "Valentine",
         description = "You can buy some horses here!",
+        footer = "Custom footer", -- Optional, can remove to use dynamic footer
         txd = "map_card_val_horseshop",
         txn = "image",
 
-        -- Anything from here is exclusive to map_card_mp_playlist
+        -- Anything from here is only available for map_card_mp_playlist
         prompt = "Custom Prompt",
         stickerA = "stamp_xp",   -- See ui_startup_textures => elements_stamps_icons
         stickerB = "stamp_cash", -- See ui_startup_textures => elements_stamps_icons
@@ -25,16 +26,18 @@ local MAP_CARDS <const> = {
     [2] = {
         type = "map_card_mission",
         title = "GENERAL STORE",
-        subtitle = "Valentine General Store",
+        subtitle = "Valentine",
         description = "You can buy some goods here!",
+        footer = nil,
         txd = "map_card_val_generalstore",
         txn = "image",
     },
     [3] = {
         type = "map_card_mp_mission",
         title = "BARBER",
-        subtitle = "Valentine Barber",
+        subtitle = "Valentine",
         description = "You can change your hairstyle here!",
+        footer = nil,
         txd = "map_card_val_saloon_barber",
         txn = "image",
     }
@@ -98,6 +101,7 @@ local stickerBTexture = nil
 
 -- State
 local mapCardOpen = false
+local mapFooterOverride = nil
 local lastFocusDistrict = nil
 local lastFocusWrittenText = nil
 local lastFocusPrintedText = nil
@@ -106,10 +110,13 @@ local lastFocusBlip = nil
 local lastBlipTypeId = nil
 
 function UpdateMapRegion()
-    if not mapRegion or mapCardOpen then return end
+    if mapCardOpen then return end
+    if not mapRegion and not mapFooterOverride then return end
 
     local regionText = ""
-    if lastFocusWrittenText and lastFocusWrittenText ~= 0 then
+    if mapFooterOverride then
+        regionText = mapFooterOverride
+    elseif lastFocusWrittenText and lastFocusWrittenText ~= 0 then
         regionText = GetStringFromHashKey(lastFocusWrittenText)
     elseif lastFocusPrintedText and lastFocusPrintedText ~= 0 then
         regionText = GetStringFromHashKey(lastFocusPrintedText)
@@ -190,18 +197,25 @@ function OnBlipUnfocused(card)
     end
 
     RequestUiappTransitionByHash("map", "hide_info")
+    mapFooterOverride = nil
     mapCardOpen = false
 
     DatabindingClearBindingArray(mapFocusContainer)
     SetStreamedTxdAsNoLongerNeeded(card.txd)
 end
 
-function OnBlipSelected()
+function OnBlipSelected(card)
     while IsUiappTransitioningByHash("map") do
         Wait(0)
     end
 
     RequestUiappTransitionByHash("map", "show_info")
+
+    if card.footer then
+        mapFooterOverride = card.footer
+        UpdateMapRegion()
+    end
+
     mapCardOpen = true
 end
 
@@ -275,7 +289,7 @@ CreateThread(function()
                     elseif eventHash == `ITEM_UNFOCUSED` then
                         OnBlipUnfocused(blipCard)
                     elseif eventHash == `ITEM_SELECTED` then
-                        OnBlipSelected()
+                        OnBlipSelected(blipCard)
                     end
 
                     lastBlipTypeId = blipTypeId
@@ -319,31 +333,77 @@ local BLIPS <const> = {
         style = "blip_style_shop",
         sprite = "blip_stable",
         name = "Stable",
-        type = 1, -- This corresponds to the key in MAP_CARDS
+        modifiers = {
+            "blip_modifier_grouping_valentine_follower", -- Grouped with the valentine town blip, see below
+            "blip_modifier_tod_daytime_only",            -- Only "active" during daytime (7-17), otherwise shows time icon
+        },
+        card = 1,                                        -- This corresponds to the key in MAP_CARDS
     },
     {
         coords = vector3(100, 0, 0),
         style = "blip_style_shop",
         sprite = "blip_shop_store",
         name = "General Store",
-        type = 2,
+        modifiers = {
+            "blip_modifier_grouping_valentine_follower", -- Grouped with the valentine town blip, see below
+            "blip_modifier_tod_nighttime_only",          -- Only "active" during nighttime (18-6), otherwise shows time icon
+        },
+        card = 2,
     },
     {
         coords = vector3(-100, 0, 0),
         style = "blip_style_shop",
         sprite = "blip_shop_barber",
         name = "Barber",
-        type = 3,
-    }
+        modifiers = {
+            "blip_modifier_grouping_valentine_follower", -- Grouped with the valentine town blip, see below
+            "blip_modifier_locked"
+        },
+        card = 3,
+    },
+
+    -- Town grouping blip without map card
+    {
+        coords = vector3(0, 0, 0),
+        style = "blip_style_town",
+        sprite = "blip_town",
+        name = "Example Blips",
+        modifiers = { "blip_modifier_grouping_valentine_leader" }
+    },
 }
 
+local createdBlips = {}
+
 for _, blip in ipairs(BLIPS) do
-    local coords = blip.coords
+    local blipId = nil
+    local coords = blip.coords or vector3(0, 0, 0)
+    local scale = blip.scale or vector3(0, 0, 0)
 
-    local blipId = BlipAddForCoords(blip.style, coords.x, coords.y, coords.z)
-    SetBlipName(blipId, blip.name)
-    SetBlipSprite(blipId, blip.sprite, true)
+    if blip.type == "area" then
+        blipId = BlipAddForArea(blip.style, coords.x, coords.y, coords.z, scale.x, scale.y, scale.z, 0)
+    else
+        blipId = BlipAddForCoords(blip.style, coords.x, coords.y, coords.z)
+    end
 
-    -- _SET_BLIP_MAP_CARD_INFO
-    Citizen.InvokeNative(0x02FF4CF43B7209D1, blipId, blip.type, blip.name)
+    if blip.card then
+        Citizen.InvokeNative(0x02FF4CF43B7209D1, blipId, blip.card, blip.name) -- _SET_BLIP_MAP_CARD_INFO
+    end
+
+    -- The order of native calls matters here, modifiers can apply names or sprites
+    for _, modifier in ipairs(blip.modifiers) do
+        BlipAddModifier(blipId, modifier)
+    end
+
+    if blip.sprite then SetBlipSprite(blipId, blip.sprite, true) end
+    if blip.name then SetBlipName(blipId, blip.name) end
+
+    table.insert(createdBlips, blipId)
 end
+
+AddEventHandler("onResourceStop", function(resourceName)
+    if resourceName ~= GetCurrentResourceName() then return end
+
+    for _, blipId in ipairs(createdBlips) do
+        RemoveBlip(blipId)
+    end
+end)
