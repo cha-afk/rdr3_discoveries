@@ -50,7 +50,7 @@ local WEARABLE_STATES <const> = {
     [0x01C28D80] = {
       `BASE`,
     },
-    [0x027B3E0A] = {
+    [`CLOTHING_M_R4_NECKTIE_239_TINT_016`] = {
       `BASE`,
     },
     [0x03420118] = {
@@ -65,7 +65,7 @@ local WEARABLE_STATES <const> = {
       `BASE`,
       `DUELWIELD`,
     },
-    [0x03F009BB] = {
+    [`CLOTHING_ITEM_M_EYEWEAR_402_TINT_005`] = {
       `BASE`,
       `UNDER_BANDANA`,
     },
@@ -117,7 +117,7 @@ local WEARABLE_STATES <const> = {
     [0x068BD98A] = {
       `BASE`,
     },
-    [0x069FA5EB] = {
+    [`CLOTHING_ITEM_M_HAT_404_TINT_005`] = {
       `BASE`,
     },
     [0x06E938A8] = {
@@ -170,7 +170,7 @@ local WEARABLE_STATES <const> = {
     [0x0C6C767D] = {
       `BASE`,
     },
-    [0x0C713E7B] = {
+    [`CLOTHING_ITEM_M_COAT_206_TINT_003`] = {
       `BASE`,
       `DUELWIELD`,
     },
@@ -255,7 +255,7 @@ local WEARABLE_STATES <const> = {
     [0x102F20E6] = {
       `BASE`,
     },
-    [0x104B07BD] = {
+    [`CLOTHING_M_R1_O3_HAT_000_TINT_004`] = {
       `BASE`,
     },
     [0x105F0147] = {
@@ -274,7 +274,7 @@ local WEARABLE_STATES <const> = {
       `BASE`,
       `UNDER_BANDANA`,
     },
-    [0x11262427] = {
+    [`CLOTHING_ITEM_M_EYEWEAR_402_TINT_004`] = {
       `BASE`,
       `UNDER_BANDANA`,
     },
@@ -289,7 +289,7 @@ local WEARABLE_STATES <const> = {
     [0x119A96B4] = {
       `BASE`,
     },
-    [0x11A11C2E] = {
+    [`CLOTHING_ITEM_M_SOCKS_000_TINT_005`] = {
       `BASE`,
       `SHORT_BOOTS_UNDER_PANTS`,
     },
@@ -331,7 +331,7 @@ local WEARABLE_STATES <const> = {
     [0x1377C4A2] = {
       `BASE`,
     },
-    [0x137FDF92] = {
+    [`CLOTHING_ITEM_M_HAT_229_TINT_005`] = {
       `BASE`,
     },
     [0x1395EFA0] = {
@@ -370,7 +370,7 @@ local WEARABLE_STATES <const> = {
     [0x1606D4A2] = {
       `BASE`,
     },
-    [0x1632867A] = {
+    [`CLOTHING_M_R3_O2_HAT_000_TINT_004`] = {
       `BASE`,
     },
     [0x169E4BBE] = {
@@ -429,7 +429,7 @@ local WEARABLE_STATES <const> = {
     [0x191F0FE6] = {
       `BASE`,
     },
-    [0x198A0445] = {
+    [`CLOTHING_M_R3_O1_HAT_000_TINT_005`] = {
       `BASE`,
     },
     [0x19A58ECF] = {
@@ -539,14 +539,14 @@ local WEARABLE_STATES <const> = {
     [0x1FAD17A3] = {
       `BASE`,
     },
-    [0x1FC0B86D] = {
+    [`CLOTHING_ITEM_M_SOCKS_000_TINT_004`] = {
       `BASE`,
       `SHORT_BOOTS_UNDER_PANTS`,
     },
     [0x1FC12C9C] = {
       `BASE`,
     },
-    [0x1FD9D85F] = {
+    [`CLOTHING_ITEM_M_HAT_404_TINT_006`] = {
       `BASE`,
     },
     [0x200A7968] = {
@@ -693,7 +693,7 @@ local WEARABLE_STATES <const> = {
       `BASE`,
       `DUELWIELD`,
     },
-    [0x246622E1] = {
+    [`CLOTHING_M_R3_O2_HAT_000_TINT_003`] = {
       `BASE`,
     },
     [0x24936C3E] = {
@@ -720,7 +720,7 @@ local WEARABLE_STATES <const> = {
     [0x26302F58] = {
       `BASE`,
     },
-    [0x26342E05] = {
+    [`CLOTHING_M_R1_O1_HAT_000_TINT_006`] = {
       `BASE`,
     },
     [0x267E3453] = {
@@ -745,7 +745,7 @@ local WEARABLE_STATES <const> = {
     [0x27C0F18F] = {
       `BASE`,
     },
-    [0x280CCEF5] = {
+    [`CLOTHING_M_R2_O3_HAT_000_TINT_001`] = {
       `BASE`,
     },
     [0x28539B0D] = {
@@ -766,7 +766,7 @@ local WEARABLE_STATES <const> = {
     [0x29B82E05] = {
       `BASE`,
     },
-    [0x29E47961] = {
+    [`CLOTHING_ITEM_M_COAT_206_TINT_005`] = {
       `BASE`,
       `DUELWIELD`,
     },
@@ -812,10 +812,10 @@ local WEARABLE_STATES <const> = {
     [0x2CE111E7] = {
       `BASE`,
     },
-    [0x2D052B3B] = {
+    [`CLOTHING_M_R3_O1_HAT_000_TINT_006`] = {
       `BASE`,
     },
-    [0x2D625B41] = {
+    [`CLOTHING_M_R1_O2_HAT_000_TINT_004`] = {
       `BASE`,
     },
     [0x2DB2CF64] = {
@@ -873,7 +873,7 @@ local WEARABLE_STATES <const> = {
     [0x3004D843] = {
       `BASE`,
     },
-    [0x30B37A12] = {
+    [`CLOTHING_ITEM_M_HAT_404_TINT_007`] = {
       `BASE`,
     },
     [0x312219CA] = {
@@ -888,7 +888,7 @@ local WEARABLE_STATES <const> = {
     [0x31BD90FC] = {
       `BASE`,
     },
-    [0x31DF4A7A] = {
+    [`CLOTHING_ITEM_M_SEASONAL_003_BELT_000`] = {
       `BASE`,
     },
     [0x3230D464] = {
@@ -962,7 +962,7 @@ local WEARABLE_STATES <const> = {
       `BASE`,
       `OVER_SPATS`,
     },
-    [0x34EC0F78] = {
+    [`CLOTHING_ITEM_M_COAT_206_TINT_006`] = {
       `BASE`,
       `DUELWIELD`,
     },
@@ -1023,7 +1023,7 @@ local WEARABLE_STATES <const> = {
     [0x36AD51FC] = {
       `BASE`,
     },
-    [0x36AD6C42] = {
+    [`CLOTHING_M_R2_O1_HAT_000_TINT_006`] = {
       `BASE`,
     },
     [0x36D08223] = {
@@ -1036,7 +1036,7 @@ local WEARABLE_STATES <const> = {
     [0x36F06EB0] = {
       `BASE`,
     },
-    [0x375C8356] = {
+    [`CLOTHING_M_R2_O2_HAT_000_TINT_005`] = {
       `BASE`,
     },
     [0x376B2F58] = {
@@ -1077,10 +1077,10 @@ local WEARABLE_STATES <const> = {
     [0x3AACBDD1] = {
       `BASE`,
     },
-    [0x3AACDC80] = {
+    [`CLOTHING_M_R1_O3_HAT_000_TINT_006`] = {
       `BASE`,
     },
-    [0x3AB64F81] = {
+    [`CLOTHING_M_R3_O2_HAT_000_TINT_006`] = {
       `BASE`,
     },
     [0x3AE1A51D] = {
@@ -1161,7 +1161,7 @@ local WEARABLE_STATES <const> = {
     [0x3D9B5AE8] = {
       `BASE`,
     },
-    [0x3DA220E4] = {
+    [`CLOTHING_ITEM_M_COAT_206_TINT_007`] = {
       `BASE`,
       `DUELWIELD`,
     },
@@ -1189,7 +1189,7 @@ local WEARABLE_STATES <const> = {
       `BASE`,
       `BOUNTY_HUNTER_L30`,
     },
-    [0x3EC47F63] = {
+    [`CLOTHING_ITEM_M_EYEWEAR_402_TINT_003`] = {
       `BASE`,
       `UNDER_BANDANA`,
     },
@@ -1211,7 +1211,7 @@ local WEARABLE_STATES <const> = {
     [0x3F9485C5] = {
       `BASE`,
     },
-    [0x3F9717D9] = {
+    [`CLOTHING_ITEM_M_HAT_404_TINT_001`] = {
       `BASE`,
     },
     [0x3FB1B271] = {
@@ -1306,7 +1306,7 @@ local WEARABLE_STATES <const> = {
       `UNDER_MED_BOOTS`,
       `UNDER_SPATS`,
     },
-    [0x42E28641] = {
+    [`CLOTHING_M_R1_O2_HAT_000_TINT_003`] = {
       `BASE`,
     },
     [0x4307DE58] = {
@@ -1463,7 +1463,7 @@ local WEARABLE_STATES <const> = {
     [0x4904128F] = {
       `BASE`,
     },
-    [0x4914EC3E] = {
+    [`CLOTHING_M_R3_O2_HAT_000_TINT_005`] = {
       `BASE`,
     },
     [0x49437D0C] = {
@@ -1480,7 +1480,7 @@ local WEARABLE_STATES <const> = {
       `BASE`,
       `DUELWIELD`,
     },
-    [0x4A8413F3] = {
+    [`CLOTHING_M_R2_O1_HAT_000_TINT_004`] = {
       `BASE`,
     },
     [0x4AAB1335] = {
@@ -1597,7 +1597,7 @@ local WEARABLE_STATES <const> = {
       `SHORT_PANTS`,
       `UNDER_PANTS`,
     },
-    [0x4FD50D1F] = {
+    [`CLOTHING_M_R3_O3_HAT_000_TINT_003`] = {
       `BASE`,
     },
     [0x4FDEE4BF] = {
@@ -1649,7 +1649,7 @@ local WEARABLE_STATES <const> = {
       `BASE`,
       `DUELWIELD`,
     },
-    [0x51C8240C] = {
+    [`CLOTHING_M_R1_O2_HAT_000_TINT_002`] = {
       `BASE`,
     },
     [0x51C84709] = {
@@ -1658,7 +1658,7 @@ local WEARABLE_STATES <const> = {
     [0x520D7285] = {
       `BASE`,
     },
-    [0x5225B8E8] = {
+    [`CLOTHING_M_R2_O2_HAT_000_TINT_004`] = {
       `BASE`,
     },
     [0x522BF4DA] = {
@@ -1699,7 +1699,7 @@ local WEARABLE_STATES <const> = {
     [0x548468A3] = {
       `BASE`,
     },
-    [0x54CC559A] = {
+    [`CLOTHING_ITEM_M_EYEWEAR_401_TINT_008`] = {
       `BASE`,
       `UNDER_BANDANA`,
     },
@@ -1742,7 +1742,7 @@ local WEARABLE_STATES <const> = {
     [0x56E8CD0C] = {
       `BASE`,
     },
-    [0x56F71514] = {
+    [`CLOTHING_M_R1_O3_HAT_000_TINT_003`] = {
       `BASE`,
     },
     [0x570BFA4B] = {
@@ -1751,7 +1751,7 @@ local WEARABLE_STATES <const> = {
     [0x5710BCAD] = {
       `BASE`,
     },
-    [0x574415AA] = {
+    [`CLOTHING_M_R1_O3_HAT_000_TINT_001`] = {
       `BASE`,
     },
     [0x575D5FD4] = {
@@ -1785,11 +1785,11 @@ local WEARABLE_STATES <const> = {
     [0x5806AB0E] = {
       `BASE`,
     },
-    [0x5830D601] = {
+    [`CLOTHING_ITEM_M_COAT_206_TINT_008`] = {
       `BASE`,
       `DUELWIELD`,
     },
-    [0x58560B2E] = {
+    [`CLOTHING_ITEM_M_HAT_314_TINT_004`] = {
       `BASE`,
     },
     [0x58783F1D] = {
@@ -1812,7 +1812,7 @@ local WEARABLE_STATES <const> = {
     [0x58B9BB71] = {
       `BASE`,
     },
-    [0x58BF4A29] = {
+    [`CLOTHING_ITEM_M_HAT_404_TINT_002`] = {
       `BASE`,
     },
     [0x58E11937] = {
@@ -1825,7 +1825,7 @@ local WEARABLE_STATES <const> = {
       0xB792C8CE,
       `BASE`,
     },
-    [0x5930B13C] = {
+    [`CLOTHING_M_R2_O3_HAT_000_TINT_003`] = {
       `BASE`,
     },
     [0x59371338] = {
@@ -1858,7 +1858,7 @@ local WEARABLE_STATES <const> = {
     [0x5A44CE8E] = {
       `BASE`,
     },
-    [0x5A64ED5B] = {
+    [`CLOTHING_ITEM_M_HAT_229_TINT_004`] = {
       `BASE`,
     },
     [0x5A956EC6] = {
@@ -1867,7 +1867,7 @@ local WEARABLE_STATES <const> = {
       `LARGE`,
       `WIDER`,
     },
-    [0x5A9B3710] = {
+    [`CLOTHING_ITEM_M_EYEWEAR_402_TINT_009`] = {
       `BASE`,
       `UNDER_BANDANA`,
     },
@@ -1915,7 +1915,7 @@ local WEARABLE_STATES <const> = {
     [0x5C4C600A] = {
       `BASE`,
     },
-    [0x5C5AB7A0] = {
+    [`CLOTHING_M_R2_O1_HAT_000_TINT_005`] = {
       `BASE`,
     },
     [0x5C615674] = {
@@ -1949,7 +1949,7 @@ local WEARABLE_STATES <const> = {
     [0x5DDECEF2] = {
       `BASE`,
     },
-    [0x5E0FA994] = {
+    [`CLOTHING_M_R3_O3_HAT_000_TINT_004`] = {
       `BASE`,
     },
     [0x5E4D88CE] = {
@@ -2021,7 +2021,7 @@ local WEARABLE_STATES <const> = {
     [0x60F698A9] = {
       `BASE`,
     },
-    [0x60FA25F0] = {
+    [`CLOTHING_ITEM_M_HAT_038_TINT_013`] = {
       `BASE`,
     },
     [0x61396EA0] = {
@@ -2050,7 +2050,7 @@ local WEARABLE_STATES <const> = {
     [0x62ED7559] = {
       `BASE`,
     },
-    [0x632FEBFF] = {
+    [`CLOTHING_ITEM_M_COAT_206_TINT_009`] = {
       `BASE`,
       `DUELWIELD`,
     },
@@ -2104,7 +2104,7 @@ local WEARABLE_STATES <const> = {
     [0x657A6A2F] = {
       `BASE`,
     },
-    [0x660A7816] = {
+    [`CLOTHING_ITEM_M_EYEWEAR_401_TINT_009`] = {
       `BASE`,
       `UNDER_BANDANA`,
     },
@@ -2142,7 +2142,7 @@ local WEARABLE_STATES <const> = {
     [0x67491827] = {
       `BASE`,
     },
-    [0x6750478B] = {
+    [`CLOTHING_ITEM_M_SOCKS_000_TINT_003`] = {
       `BASE`,
       `SHORT_BOOTS_UNDER_PANTS`,
     },
@@ -2152,7 +2152,7 @@ local WEARABLE_STATES <const> = {
     [0x676A3198] = {
       `BASE`,
     },
-    [0x67714F5E] = {
+    [`CLOTHING_M_R1_O2_HAT_000_TINT_001`] = {
       `BASE`,
     },
     [0x67B55891] = {
@@ -2165,7 +2165,7 @@ local WEARABLE_STATES <const> = {
     [0x67CBFD18] = {
       `BASE`,
     },
-    [0x67CDD175] = {
+    [`CLOTHING_ITEM_M_EYEWEAR_402_TINT_008`] = {
       `BASE`,
       `UNDER_BANDANA`,
     },
@@ -2266,13 +2266,13 @@ local WEARABLE_STATES <const> = {
       `BASE`,
       `DUMMY`,
     },
-    [0x6A1CECE4] = {
+    [`CLOTHING_ITEM_M_HAT_404_TINT_003`] = {
       `BASE`,
     },
     [0x6A6913CA] = {
       `BASE`,
     },
-    [0x6AC818DF] = {
+    [`CLOTHING_ITEM_M_HAT_230_TINT_008`] = {
       `BASE`,
     },
     [0x6B3773C6] = {
@@ -2291,7 +2291,7 @@ local WEARABLE_STATES <const> = {
     [0x6BAB96F1] = {
       `BASE`,
     },
-    [0x6BB5C4E0] = {
+    [`CLOTHING_M_R3_O3_HAT_000_TINT_005`] = {
       `BASE`,
     },
     [0x6BD427CE] = {
@@ -2334,16 +2334,16 @@ local WEARABLE_STATES <const> = {
     [0x6D4FBD96] = {
       `BASE`,
     },
-    [0x6D99EFD0] = {
+    [`CLOTHING_M_R2_O2_HAT_000_TINT_006`] = {
       `BASE`,
     },
-    [0x6DBEDA58] = {
+    [`CLOTHING_M_R2_O3_HAT_000_TINT_002`] = {
       `BASE`,
     },
     [0x6DF3526B] = {
       `BASE`,
     },
-    [0x6DFEDAE8] = {
+    [`CLOTHING_M_R2_O1_HAT_000_TINT_002`] = {
       `BASE`,
     },
     [0x6E4D22C1] = {
@@ -2386,7 +2386,7 @@ local WEARABLE_STATES <const> = {
     [0x6F0C4BC7] = {
       `BASE`,
     },
-    [0x6F173FB2] = {
+    [`CLOTHING_M_R1_O1_HAT_000_TINT_003`] = {
       `BASE`,
     },
     [0x6F65D5A6] = {
@@ -2412,7 +2412,7 @@ local WEARABLE_STATES <const> = {
     [0x710F638B] = {
       `BASE`,
     },
-    [0x7114E114] = {
+    [`CLOTHING_M_R2_O1_HAT_000_TINT_003`] = {
       `BASE`,
     },
     [0x711D7D6B] = {
@@ -2457,7 +2457,7 @@ local WEARABLE_STATES <const> = {
     [0x73AF434A] = {
       `BASE`,
     },
-    [0x73B84E96] = {
+    [`CLOTHING_M_R1_O3_HAT_000_TINT_002`] = {
       `BASE`,
     },
     [0x73DC8C16] = {
@@ -2470,7 +2470,7 @@ local WEARABLE_STATES <const> = {
     [0x7405ABD5] = {
       `BASE`,
     },
-    [0x7409AB5A] = {
+    [`CLOTHING_ITEM_M_HAT_230_TINT_003`] = {
       `BASE`,
     },
     [0x7449D008] = {
@@ -2508,7 +2508,7 @@ local WEARABLE_STATES <const> = {
     [0x74F692EC] = {
       `BASE`,
     },
-    [0x750CE304] = {
+    [`CLOTHING_ITEM_M_SOCKS_000_TINT_002`] = {
       `BASE`,
       `SHORT_BOOTS_UNDER_PANTS`,
     },
@@ -2524,7 +2524,7 @@ local WEARABLE_STATES <const> = {
     [0x758445DC] = {
       `BASE`,
     },
-    [0x75ADED35] = {
+    [`CLOTHING_ITEM_M_EYEWEAR_402_TINT_007`] = {
       `BASE`,
       `UNDER_BANDANA`,
     },
@@ -2564,16 +2564,16 @@ local WEARABLE_STATES <const> = {
     [0x77DA27D8] = {
       `BASE`,
     },
-    [0x77FB3345] = {
+    [`CLOTHING_ITEM_M_HAT_230_TINT_007`] = {
       `BASE`,
     },
     [0x78542A3D] = {
       `BASE`,
     },
-    [0x78D15326] = {
+    [`CLOTHING_M_R1_O1_HAT_000_TINT_002`] = {
       `BASE`,
     },
-    [0x78D74C30] = {
+    [`CLOTHING_ITEM_M_HAT_314_TINT_002`] = {
       `BASE`,
     },
     [0x78E5B8BA] = {
@@ -2628,7 +2628,7 @@ local WEARABLE_STATES <const> = {
     [0x7AE917C5] = {
       `BASE`,
     },
-    [0x7AFD636F] = {
+    [`CLOTHING_M_R3_O3_HAT_000_TINT_006`] = {
       `BASE`,
     },
     [0x7B15429B] = {
@@ -2650,7 +2650,7 @@ local WEARABLE_STATES <const> = {
     [0x7C7C2EFE] = {
       `BASE`,
     },
-    [0x7C967807] = {
+    [`CLOTHING_M_R2_O3_HAT_000_TINT_005`] = {
       `BASE`,
     },
     [0x7CC38BD9] = {
@@ -2692,7 +2692,7 @@ local WEARABLE_STATES <const> = {
     [0x7E325609] = {
       `BASE`,
     },
-    [0x7E3C1118] = {
+    [`CLOTHING_M_R2_O2_HAT_000_TINT_001`] = {
       `BASE`,
     },
     [0x7E535E59] = {
@@ -2744,16 +2744,16 @@ local WEARABLE_STATES <const> = {
     [0x813159A2] = {
       `BASE`,
     },
-    [0x816D512E] = {
+    [`CLOTHING_ITEM_M_SEASONAL_001_BELT_000`] = {
       `BASE`,
     },
-    [0x8171EA09] = {
+    [`CLOTHING_M_R1_O3_HAT_000_TINT_005`] = {
       `BASE`,
     },
     [0x81F52324] = {
       `BASE`,
     },
-    [0x8229C7A2] = {
+    [`CLOTHING_ITEM_M_HAT_230_TINT_006`] = {
       `BASE`,
     },
     [0x82442B78] = {
@@ -2764,7 +2764,7 @@ local WEARABLE_STATES <const> = {
       `BASE`,
       `DUMMY`,
     },
-    [0x82AC3159] = {
+    [`CLOTHING_ITEM_M_EYEWEAR_401_TINT_007`] = {
       `BASE`,
       `UNDER_BANDANA`,
     },
@@ -2809,7 +2809,7 @@ local WEARABLE_STATES <const> = {
     [0x85D1A6E7] = {
       `BASE`,
     },
-    [0x85D2DD67] = {
+    [`CLOTHING_ITEM_M_HAT_401_TINT_000`] = {
       `BASE`,
     },
     [0x85FDECC5] = {
@@ -2844,7 +2844,7 @@ local WEARABLE_STATES <const> = {
       `BASE`,
       `DUELWIELD`,
     },
-    [0x87705227] = {
+    [`CLOTHING_ITEM_M_HAT_230_TINT_001`] = {
       `BASE`,
     },
     [0x8814D0AA] = {
@@ -2897,7 +2897,7 @@ local WEARABLE_STATES <const> = {
     [0x89454AAE] = {
       `BASE`,
     },
-    [0x8982F489] = {
+    [`CLOTHING_M_R1_O1_HAT_000_TINT_005`] = {
       `BASE`,
     },
     [0x89D238B3] = {
@@ -2929,7 +2929,7 @@ local WEARABLE_STATES <const> = {
     [0x8A6BDCE8] = {
       `BASE`,
     },
-    [0x8A6DEF5D] = {
+    [`CLOTHING_ITEM_M_HAT_314_TINT_001`] = {
       `BASE`,
     },
     [0x8A74D646] = {
@@ -2978,7 +2978,7 @@ local WEARABLE_STATES <const> = {
     [0x8D490018] = {
       `BASE`,
     },
-    [0x8D6BD368] = {
+    [`CLOTHING_ITEM_M_HAT_229_TINT_008`] = {
       `BASE`,
     },
     [0x8D6EC0EF] = {
@@ -2990,7 +2990,7 @@ local WEARABLE_STATES <const> = {
     [0x8DB52B0E] = {
       `BASE`,
     },
-    [0x8E2ED40B] = {
+    [`CLOTHING_ITEM_M_NECKWEAR_401_TINT_000`] = {
       `BASE`,
       `MASK_UP`,
       `MASK_UP_XL`,
@@ -3004,7 +3004,7 @@ local WEARABLE_STATES <const> = {
     [0x8E7E5481] = {
       `BASE`,
     },
-    [0x8EDC1C92] = {
+    [`CLOTHING_M_R2_O3_HAT_000_TINT_004`] = {
       `BASE`,
     },
     [0x8F0C74C0] = {
@@ -3087,7 +3087,7 @@ local WEARABLE_STATES <const> = {
     [0x9232052D] = {
       `BASE`,
     },
-    [0x924E4B5B] = {
+    [`CLOTHING_ITEM_M_COAT_206_TINT_010`] = {
       `BASE`,
       `DUELWIELD`,
     },
@@ -3107,11 +3107,11 @@ local WEARABLE_STATES <const> = {
       `BASE`,
       `BASE_COAT_OPEN`,
     },
-    [0x93519F75] = {
+    [`CLOTHING_ITEM_M_SOCKS_000_TINT_008`] = {
       `BASE`,
       `SHORT_BOOTS_UNDER_PANTS`,
     },
-    [0x936A25BE] = {
+    [`CLOTHING_M_R2_O1_HAT_000_TINT_001`] = {
       `BASE`,
     },
     [0x93C85883] = {
@@ -3121,7 +3121,7 @@ local WEARABLE_STATES <const> = {
     [0x93FC9491] = {
       `BASE`,
     },
-    [0x943609EF] = {
+    [`CLOTHING_M_R1_O1_HAT_000_TINT_004`] = {
       `BASE`,
     },
     [0x944F092D] = {
@@ -3142,7 +3142,7 @@ local WEARABLE_STATES <const> = {
     [0x950C0A49] = {
       `BASE`,
     },
-    [0x9577ACB0] = {
+    [`CLOTHING_ITEM_M_EYEWEAR_402_TINT_002`] = {
       `BASE`,
       `UNDER_BANDANA`,
     },
@@ -3210,7 +3210,7 @@ local WEARABLE_STATES <const> = {
       `BASE`,
       `DUELWIELD`,
     },
-    [0x98ABB1D2] = {
+    [`CLOTHING_M_R1_O2_HAT_000_TINT_006`] = {
       `BASE`,
     },
     [0x98B7B8EB] = {
@@ -3231,14 +3231,14 @@ local WEARABLE_STATES <const> = {
     [0x99C48ADA] = {
       `BASE`,
     },
-    [0x99C85F9D] = {
+    [`CLOTHING_ITEM_M_EYEWEAR_401_TINT_006`] = {
       `BASE`,
       `UNDER_BANDANA`,
     },
     [0x99E945EF] = {
       `BASE`,
     },
-    [0x99F7F736] = {
+    [`CLOTHING_ITEM_M_HAT_230_TINT_004`] = {
       `BASE`,
     },
     [0x9A208AFC] = {
@@ -3264,7 +3264,7 @@ local WEARABLE_STATES <const> = {
     [0x9B4EDF9C] = {
       `BASE`,
     },
-    [0x9B87FA5E] = {
+    [`CLOTHING_ITEM_M_HAT_230_TINT_005`] = {
       `BASE`,
     },
     [0x9BD74516] = {
@@ -3328,7 +3328,7 @@ local WEARABLE_STATES <const> = {
     [0x9F192283] = {
       `BASE`,
     },
-    [0x9F2A76E5] = {
+    [`CLOTHING_ITEM_M_HAT_229_TINT_007`] = {
       `BASE`,
     },
     [0x9F54DFB9] = {
@@ -3353,7 +3353,7 @@ local WEARABLE_STATES <const> = {
     [0x9FF4A7ED] = {
       `BASE`,
     },
-    [0xA0331AE7] = {
+    [`CLOTHING_ITEM_M_HAT_314_TINT_005`] = {
       `BASE`,
     },
     [0xA0649C75] = {
@@ -3391,7 +3391,7 @@ local WEARABLE_STATES <const> = {
       `BASE`,
       `BASE_COAT_OPEN`,
     },
-    [0xA16E3BAE] = {
+    [`CLOTHING_ITEM_M_SOCKS_000_TINT_009`] = {
       `BASE`,
       `SHORT_BOOTS_UNDER_PANTS`,
     },
@@ -3419,13 +3419,13 @@ local WEARABLE_STATES <const> = {
       `PONCHO_000`,
       `PONCHO_002`,
     },
-    [0xA2C1445C] = {
+    [`CLOTHING_M_R2_O3_HAT_000_TINT_006`] = {
       `BASE`,
     },
     [0xA2F6E06B] = {
       `BASE`,
     },
-    [0xA33B4837] = {
+    [`CLOTHING_ITEM_M_EYEWEAR_402_TINT_001`] = {
       `BASE`,
       `UNDER_BANDANA`,
     },
@@ -3435,7 +3435,7 @@ local WEARABLE_STATES <const> = {
     [0xA3F1679F] = {
       `BASE`,
     },
-    [0xA401DCA3] = {
+    [`CLOTHING_M_R2_O2_HAT_000_TINT_003`] = {
       `BASE`,
     },
     [0xA4495F3E] = {
@@ -3461,7 +3461,7 @@ local WEARABLE_STATES <const> = {
     [0xA5483707] = {
       `BASE`,
     },
-    [0xA5B325E7] = {
+    [`CLOTHING_ITEM_M_HAT_314_TINT_008`] = {
       `BASE`,
     },
     [0xA6992744] = {
@@ -3587,7 +3587,7 @@ local WEARABLE_STATES <const> = {
     [0xAE36AA57] = {
       `BASE`,
     },
-    [0xAE76DD68] = {
+    [`CLOTHING_M_R1_O2_HAT_000_TINT_005`] = {
       `BASE`,
     },
     [0xAE7FFC39] = {
@@ -3600,7 +3600,7 @@ local WEARABLE_STATES <const> = {
       `BASE`,
       `DUELWIELD`,
     },
-    [0xAF03AF3E] = {
+    [`CLOTHING_M_R3_O1_HAT_000_TINT_003`] = {
       `BASE`,
     },
     [0xAF0614F7] = {
@@ -3667,7 +3667,7 @@ local WEARABLE_STATES <const> = {
       `VEST_COAT_OPEN`,
       `VEST_CUSTOM`,
     },
-    [0xB12617F1] = {
+    [`CLOTHING_ITEM_M_COAT_305_TINT_009`] = {
       `BASE`,
       `DUELWIELD`,
     },
@@ -3700,7 +3700,7 @@ local WEARABLE_STATES <const> = {
     [0xB1E57776] = {
       `BASE`,
     },
-    [0xB1F565AB] = {
+    [`CLOTHING_ITEM_M_EYEWEAR_402_TINT_000`] = {
       `BASE`,
       `UNDER_BANDANA`,
     },
@@ -3727,7 +3727,7 @@ local WEARABLE_STATES <const> = {
     [0xB4038D1B] = {
       `BASE`,
     },
-    [0xB4077CAE] = {
+    [`CLOTHING_M_R2_O2_HAT_000_TINT_002`] = {
       `BASE`,
     },
     [0xB41E9A5E] = {
@@ -3739,10 +3739,10 @@ local WEARABLE_STATES <const> = {
     [0xB4690128] = {
       `BASE`,
     },
-    [0xB49F56B6] = {
+    [`CLOTHING_M_R3_O3_HAT_000_TINT_001`] = {
       `BASE`,
     },
-    [0xB4A31556] = {
+    [`CLOTHING_ITEM_M_EYEWEAR_401_TINT_004`] = {
       `BASE`,
       `UNDER_BANDANA`,
     },
@@ -3786,7 +3786,7 @@ local WEARABLE_STATES <const> = {
     [0xB6AB5B00] = {
       `BASE`,
     },
-    [0xB6D019B3] = {
+    [`CLOTHING_ITEM_M_HAT_224_TINT_005`] = {
       `BASE`,
     },
     [0xB6FBAE87] = {
@@ -3796,7 +3796,7 @@ local WEARABLE_STATES <const> = {
     [0xB6FCD794] = {
       `BASE`,
     },
-    [0xB72D9A76] = {
+    [`CLOTHING_ITEM_M_HAT_224_TINT_001`] = {
       `BASE`,
     },
     [0xB7DDDE39] = {
@@ -3811,7 +3811,7 @@ local WEARABLE_STATES <const> = {
     [0xB816CE15] = {
       `BASE`,
     },
-    [0xB83141A3] = {
+    [`CLOTHING_ITEM_M_MASK_009_VAR_011`] = {
       `BASE`,
     },
     [0xB8475D26] = {
@@ -3869,7 +3869,7 @@ local WEARABLE_STATES <const> = {
     [0xBBEF7111] = {
       `BASE`,
     },
-    [0xBC42F16F] = {
+    [`CLOTHING_ITEM_M_SOCKS_000_TINT_001`] = {
       `BASE`,
       `SHORT_BOOTS_UNDER_PANTS`,
     },
@@ -3888,7 +3888,7 @@ local WEARABLE_STATES <const> = {
     [0xBD1FFF39] = {
       `BASE`,
     },
-    [0xBD35BDB1] = {
+    [`CLOTHING_ITEM_M_HAT_230_TINT_002`] = {
       `BASE`,
     },
     [0xBD56A1F9] = {
@@ -3904,13 +3904,13 @@ local WEARABLE_STATES <const> = {
       `BASE`,
       `UNDER_BANDANA`,
     },
-    [0xBDEDD65C] = {
+    [`CLOTHING_ITEM_M_HAT_314_TINT_003`] = {
       `BASE`,
     },
     [0xBE89B3DC] = {
       `BASE`,
     },
-    [0xBEC73622] = {
+    [`CLOTHING_ITEM_M_HAT_229_TINT_002`] = {
       `BASE`,
     },
     [0xBF30A127] = {
@@ -3934,7 +3934,7 @@ local WEARABLE_STATES <const> = {
     [0xC0177B04] = {
       `BASE`,
     },
-    [0xC02CA5F3] = {
+    [`CLOTHING_ITEM_M_COAT_206_TINT_004`] = {
       `BASE`,
       `DUELWIELD`,
     },
@@ -4004,7 +4004,7 @@ local WEARABLE_STATES <const> = {
     [0xC29CADCF] = {
       `BASE`,
     },
-    [0xC29E66BF] = {
+    [`CLOTHING_M_R1_O1_HAT_000_TINT_001`] = {
       `BASE`,
     },
     [0xC2A81B12] = {
@@ -4051,7 +4051,7 @@ local WEARABLE_STATES <const> = {
     [0xC654286D] = {
       `BASE`,
     },
-    [0xC66538DA] = {
+    [`CLOTHING_ITEM_M_EYEWEAR_401_TINT_005`] = {
       `BASE`,
       `UNDER_BANDANA`,
     },
@@ -4067,7 +4067,7 @@ local WEARABLE_STATES <const> = {
     [0xC7D65C20] = {
       `BASE`,
     },
-    [0xC7E07D38] = {
+    [`CLOTHING_M_R3_O3_HAT_000_TINT_002`] = {
       `BASE`,
     },
     [0xC7FDE74C] = {
@@ -4076,7 +4076,7 @@ local WEARABLE_STATES <const> = {
     [0xC80366AD] = {
       `BASE`,
     },
-    [0xC815BC3E] = {
+    [`CLOTHING_ITEM_M_HAT_224_TINT_006`] = {
       `BASE`,
     },
     [0xC827CADB] = {
@@ -4093,7 +4093,7 @@ local WEARABLE_STATES <const> = {
       `BASE`,
       `BASE_COAT_OPEN`,
     },
-    [0xC9783F0B] = {
+    [`CLOTHING_ITEM_M_HAT_224_TINT_002`] = {
       `BASE`,
     },
     [0xC99989B6] = {
@@ -4181,7 +4181,7 @@ local WEARABLE_STATES <const> = {
     [0xCE767113] = {
       `BASE`,
     },
-    [0xCE785AE9] = {
+    [`CLOTHING_ITEM_M_COAT_305_TINT_010`] = {
       `BASE`,
       `DUELWIELD`,
     },
@@ -4242,13 +4242,13 @@ local WEARABLE_STATES <const> = {
     [0xD05DC2AD] = {
       `BASE`,
     },
-    [0xD095F262] = {
+    [`CLOTHING_M_R3_O1_HAT_000_TINT_004`] = {
       `BASE`,
     },
     [0xD0B13749] = {
       `BASE`,
     },
-    [0xD0BD4D8A] = {
+    [`CLOTHING_ITEM_M_EYEWEAR_401_TINT_002`] = {
       `BASE`,
       `UNDER_BANDANA`,
     },
@@ -4267,7 +4267,7 @@ local WEARABLE_STATES <const> = {
     [0xD1E0DAF0] = {
       `BASE`,
     },
-    [0xD1E0FE42] = {
+    [`CLOTHING_ITEM_M_HAT_314_TINT_006`] = {
       `BASE`,
     },
     [0xD1F2402B] = {
@@ -4282,7 +4282,7 @@ local WEARABLE_STATES <const> = {
     [0xD244EB6B] = {
       `BASE`,
     },
-    [0xD25CD0CC] = {
+    [`CLOTHING_ITEM_M_HAT_224_TINT_007`] = {
       `BASE`,
     },
     [0xD25EB482] = {
@@ -4317,7 +4317,7 @@ local WEARABLE_STATES <const> = {
     [0xD37F1CA8] = {
       `BASE`,
     },
-    [0xD466D4E8] = {
+    [`CLOTHING_ITEM_M_HAT_224_TINT_003`] = {
       `BASE`,
     },
     [0xD4837059] = {
@@ -4326,7 +4326,7 @@ local WEARABLE_STATES <const> = {
     [0xD4DA3975] = {
       `BASE`,
     },
-    [0xD51CCFD3] = {
+    [`CLOTHING_ITEM_M_COAT_206_TINT_001`] = {
       `BASE`,
       `DUELWIELD`,
     },
@@ -4392,7 +4392,7 @@ local WEARABLE_STATES <const> = {
     [0xD86A0475] = {
       `BASE`,
     },
-    [0xD88669A0] = {
+    [`CLOTHING_ITEM_M_HAT_229_TINT_001`] = {
       `BASE`,
     },
     [0xD8A73FD3] = {
@@ -4404,7 +4404,7 @@ local WEARABLE_STATES <const> = {
       `SHORT_PANTS`,
       `UNDER_PANTS`,
     },
-    [0xD8C0B763] = {
+    [`CLOTHING_ITEM_M_SEASONAL_000_BELT_000`] = {
       `BASE`,
     },
     [0xD8D95EA7] = {
@@ -4500,10 +4500,10 @@ local WEARABLE_STATES <const> = {
       `BASE`,
       `DUELWIELD`,
     },
-    [0xE04491BB] = {
+    [`CLOTHING_M_R3_O1_HAT_000_TINT_001`] = {
       `BASE`,
     },
-    [0xE0D3EDB7] = {
+    [`CLOTHING_ITEM_M_EYEWEAR_401_TINT_003`] = {
       `BASE`,
       `UNDER_BANDANA`,
     },
@@ -4551,13 +4551,13 @@ local WEARABLE_STATES <const> = {
       `BASE`,
       `BASE_COAT_OPEN`,
     },
-    [0xE3977341] = {
+    [`CLOTHING_ITEM_M_HAT_224_TINT_008`] = {
       `BASE`,
     },
     [0xE3E6CF48] = {
       `BASE`,
     },
-    [0xE42E00EF] = {
+    [`CLOTHING_ITEM_M_HAT_229_TINT_003`] = {
       `BASE`,
     },
     [0xE43E7E4F] = {
@@ -4591,7 +4591,7 @@ local WEARABLE_STATES <const> = {
     [0xE5A88F7B] = {
       `BASE`,
     },
-    [0xE5B5C43C] = {
+    [`CLOTHING_ITEM_M_SOCKS_000_TINT_006`] = {
       `BASE`,
       `SHORT_BOOTS_UNDER_PANTS`,
     },
@@ -4601,7 +4601,7 @@ local WEARABLE_STATES <const> = {
     [0xE622F53F] = {
       `BASE`,
     },
-    [0xE624F864] = {
+    [`CLOTHING_ITEM_M_HAT_224_TINT_004`] = {
       `BASE`,
     },
     [0xE631689A] = {
@@ -4738,7 +4738,7 @@ local WEARABLE_STATES <const> = {
     [0xEC0F0091] = {
       `BASE`,
     },
-    [0xEC6904E1] = {
+    [`CLOTHING_ITEM_M_EYEWEAR_401_TINT_000`] = {
       `BASE`,
       `UNDER_BANDANA`,
     },
@@ -4833,7 +4833,7 @@ local WEARABLE_STATES <const> = {
     [0xF1E041A5] = {
       `BASE`,
     },
-    [0xF1F13514] = {
+    [`CLOTHING_M_R3_O1_HAT_000_TINT_002`] = {
       `BASE`,
     },
     [0xF1FF1CFE] = {
@@ -4842,7 +4842,7 @@ local WEARABLE_STATES <const> = {
     [0xF23A729F] = {
       `BASE`,
     },
-    [0xF2BD4002] = {
+    [`CLOTHING_ITEM_M_HAT_314_TINT_007`] = {
       `BASE`,
     },
     [0xF2DE7323] = {
@@ -4873,7 +4873,7 @@ local WEARABLE_STATES <const> = {
     [0xF3E09573] = {
       `BASE`,
     },
-    [0xF3F960C3] = {
+    [`CLOTHING_ITEM_M_SOCKS_000_TINT_007`] = {
       `BASE`,
       `SHORT_BOOTS_UNDER_PANTS`,
     },
@@ -4903,7 +4903,7 @@ local WEARABLE_STATES <const> = {
       `BASE`,
       `DUELWIELD`,
     },
-    [0xF53D0326] = {
+    [`CLOTHING_ITEM_M_HAT_404_TINT_004`] = {
       `BASE`,
     },
     [0xF563BE37] = {
@@ -4922,7 +4922,7 @@ local WEARABLE_STATES <const> = {
     [0xF57F940E] = {
       `BASE`,
     },
-    [0xF5A86D2C] = {
+    [`CLOTHING_ITEM_M_EYEWEAR_402_TINT_006`] = {
       `BASE`,
       `UNDER_BANDANA`,
     },
@@ -4931,7 +4931,7 @@ local WEARABLE_STATES <const> = {
       `PONCHO_000`,
       `PONCHO_002`,
     },
-    [0xF5C0A414] = {
+    [`CLOTHING_ITEM_M_HAT_229_TINT_006`] = {
       `BASE`,
     },
     [0xF5C23C25] = {
@@ -5035,7 +5035,7 @@ local WEARABLE_STATES <const> = {
     [0xFA2ED202] = {
       `BASE`,
     },
-    [0xFAAE9AF6] = {
+    [`CLOTHING_ITEM_M_COAT_206_TINT_002`] = {
       `BASE`,
       `DUELWIELD`,
     },
@@ -5108,7 +5108,7 @@ local WEARABLE_STATES <const> = {
       `BASE_COAT_OPEN`,
       `DUMMY`,
     },
-    [0xFEB7297D] = {
+    [`CLOTHING_ITEM_M_EYEWEAR_401_TINT_001`] = {
       `BASE`,
       `UNDER_BANDANA`,
     },
@@ -5125,7 +5125,7 @@ local WEARABLE_STATES <const> = {
       `MASK_A`,
       `TUCKED`,
     },
-    [0xFF2273C5] = {
+    [`CLOTHING_ITEM_M_SOCKS_000_TINT_010`] = {
       `BASE`,
       `SHORT_BOOTS_UNDER_PANTS`,
     },
@@ -38232,7 +38232,7 @@ local WEARABLE_STATES <const> = {
       `BASE`,
       `UNDER_PANTS`,
     },
-    [0x395C353F] = {
+    [`CLOTHING_HL_PLAYER_VESTS_013_1`] = {
       `BASE`,
       `BASE_COAT_OPEN`,
     },
@@ -38683,7 +38683,7 @@ local WEARABLE_STATES <const> = {
       0x9D16A285,
       `BASE`,
     },
-    [0xAD09683A] = {
+    [`CLOTHING_HL_PLAYER_VESTS_012_1`] = {
       `BASE`,
       `BASE_COAT_OPEN`,
     },
@@ -38731,7 +38731,7 @@ local WEARABLE_STATES <const> = {
       `UNDER_MED_BOOTS`,
       `UNDER_SPATS`,
     },
-    [0xB7BD69B6] = {
+    [`CLOTHING_SP_GUNBELT_013`] = {
       `BASE`,
     },
     [0xB920F6EF] = {
@@ -38876,7 +38876,7 @@ local WEARABLE_STATES <const> = {
     [0xDC928FFC] = {
       `BASE`,
     },
-    [0xDCF16BF7] = {
+    [`CLOTHING_HL_PLAYER_VESTS_014_1`] = {
       `BASE`,
       `BASE_COAT_OPEN`,
     },
@@ -45027,7 +45027,7 @@ local WEARABLE_STATES <const> = {
     [0x025CCE36] = {
       `BASE`,
     },
-    [0x025F9F1F] = {
+    [`CLOTHING_ITEM_F_HAT_314_TINT_008`] = {
       `BASE`,
     },
     [0x028B08F2] = {
@@ -45058,7 +45058,7 @@ local WEARABLE_STATES <const> = {
     [0x049B3783] = {
       `BASE`,
     },
-    [0x04A47F6E] = {
+    [`CLOTHING_ITEM_F_coat_206_tint_004`] = {
       0x2C1BA29E,
       0x521490B7,
       0xB792C8CE,
@@ -45109,7 +45109,7 @@ local WEARABLE_STATES <const> = {
     [0x08786B51] = {
       `BASE`,
     },
-    [0x088DECD4] = {
+    [`CLOTHING_ITEM_F_HAT_404_TINT_004`] = {
       `BASE`,
     },
     [0x08CFA641] = {
@@ -45118,7 +45118,7 @@ local WEARABLE_STATES <const> = {
     [0x08E944E8] = {
       `BASE`,
     },
-    [0x092BCD35] = {
+    [`CLOTHING_ITEM_F_EYEWEAR_402_TINT_003`] = {
       `BASE`,
       `UNDER_BANDANA`,
     },
@@ -45367,7 +45367,7 @@ local WEARABLE_STATES <const> = {
     [0x152E6C48] = {
       `BASE`,
     },
-    [0x154E77B8] = {
+    [`CLOTHING_ITEM_F_SEASONAL_001_BELT_000`] = {
       `BASE`,
     },
     [0x1597552A] = {
@@ -45423,7 +45423,7 @@ local WEARABLE_STATES <const> = {
     [0x16A55097] = {
       `BASE`,
     },
-    [0x17130AB3] = {
+    [`CLOTHING_F_R1_O1_HAT_000_TINT_003`] = {
       `BASE`,
     },
     [0x178DE554] = {
@@ -45444,7 +45444,7 @@ local WEARABLE_STATES <const> = {
     [0x18C3AA6B] = {
       `BASE`,
     },
-    [0x18D980F0] = {
+    [`CLOTHING_F_R2_O1_HAT_000_TINT_002`] = {
       `BASE`,
     },
     [0x1945CE44] = {
@@ -45472,7 +45472,7 @@ local WEARABLE_STATES <const> = {
     [0x1AA4BA22] = {
       `BASE`,
     },
-    [0x1B0F520E] = {
+    [`CLOTHING_F_R2_O3_HAT_000_TINT_001`] = {
       `BASE`,
     },
     [0x1B3282B0] = {
@@ -45518,7 +45518,7 @@ local WEARABLE_STATES <const> = {
     [0x1CE3BBDF] = {
       `BASE`,
     },
-    [0x1D286F3E] = {
+    [`CLOTHING_F_R1_O3_HAT_000_TINT_004`] = {
       `BASE`,
     },
     [0x1D2C6CF0] = {
@@ -45532,7 +45532,7 @@ local WEARABLE_STATES <const> = {
     [0x1DCFE420] = {
       `BASE`,
     },
-    [0x1E06B232] = {
+    [`CLOTHING_ITEM_F_coat_206_tint_001`] = {
       0x2C1BA29E,
       0x521490B7,
       0xB792C8CE,
@@ -45572,7 +45572,7 @@ local WEARABLE_STATES <const> = {
       `UNDER_CHAPS`,
       `UNDER_SPATS`,
     },
-    [0x1F379A2F] = {
+    [`CLOTHING_ITEM_F_HAT_404_TINT_001`] = {
       `BASE`,
     },
     [0x1F4B4E89] = {
@@ -45611,7 +45611,7 @@ local WEARABLE_STATES <const> = {
     [0x20456A6F] = {
       `BASE`,
     },
-    [0x2047FB3D] = {
+    [`CLOTHING_ITEM_F_EYEWEAR_402_TINT_009`] = {
       `BASE`,
       `UNDER_BANDANA`,
     },
@@ -45652,7 +45652,7 @@ local WEARABLE_STATES <const> = {
     [0x22D95E01] = {
       `BASE`,
     },
-    [0x22E6166F] = {
+    [`CLOTHING_F_R3_O2_HAT_000_TINT_002`] = {
       `BASE`,
     },
     [0x23062728] = {
@@ -45664,7 +45664,7 @@ local WEARABLE_STATES <const> = {
     [0x241B6B9C] = {
       `BASE`,
     },
-    [0x244A0371] = {
+    [`CLOTHING_ITEM_F_EYEWEAR_402_TINT_000`] = {
       `BASE`,
       `UNDER_BANDANA`,
     },
@@ -45756,10 +45756,10 @@ local WEARABLE_STATES <const> = {
     [0x2924D60F] = {
       `BASE`,
     },
-    [0x2947AF1C] = {
+    [`CLOTHING_F_R1_O1_HAT_000_TINT_004`] = {
       `BASE`,
     },
-    [0x295788CF] = {
+    [`CLOTHING_ITEM_F_HAT_001_ADV_001`] = {
       `BASE`,
     },
     [0x299459C5] = {
@@ -45818,7 +45818,7 @@ local WEARABLE_STATES <const> = {
     [0x2C674BF9] = {
       `BASE`,
     },
-    [0x2C6ADFE7] = {
+    [`CLOTHING_F_R3_O1_HAT_000_TINT_006`] = {
       `BASE`,
     },
     [0x2C9DE431] = {
@@ -45841,7 +45841,7 @@ local WEARABLE_STATES <const> = {
       `LARGE`,
       `WIDER`,
     },
-    [0x2D82F6F5] = {
+    [`CLOTHING_F_R2_O3_HAT_000_TINT_002`] = {
       `BASE`,
     },
     [0x2D83A4C8] = {
@@ -45916,7 +45916,7 @@ local WEARABLE_STATES <const> = {
       `SHIRT_007_COAT_OPEN`,
       `SHIRT_COAT_OPEN`,
     },
-    [0x30CD7BFA] = {
+    [`CLOTHING_ITEM_F_HAT_314_TINT_007`] = {
       `BASE`,
     },
     [0x30F71CF2] = {
@@ -45935,7 +45935,7 @@ local WEARABLE_STATES <const> = {
       `BASE`,
       `DUELWIELD`,
     },
-    [0x31925A65] = {
+    [`CLOTHING_ITEM_F_EYEWEAR_401_TINT_003`] = {
       `BASE`,
       `UNDER_BANDANA`,
     },
@@ -46005,7 +46005,7 @@ local WEARABLE_STATES <const> = {
       `SHIRT_004`,
       `SHIRT_008`,
     },
-    [0x3467D658] = {
+    [`CLOTHING_F_R1_O2_HAT_000_TINT_005`] = {
       `BASE`,
     },
     [0x350FF77A] = {
@@ -46069,7 +46069,7 @@ local WEARABLE_STATES <const> = {
     [0x3870BA72] = {
       `BASE`,
     },
-    [0x388B35B5] = {
+    [`CLOTHING_F_SEASON3_NECKERCHIEF_012_TINT_018`] = {
       `BASE`,
       `BASE_SKIRT`,
       `DUELWIELD`,
@@ -46102,7 +46102,7 @@ local WEARABLE_STATES <const> = {
     [0x398D6645] = {
       `BASE`,
     },
-    [0x39A50DA9] = {
+    [`CLOTHING_ITEM_F_HAT_314_TINT_004`] = {
       `BASE`,
     },
     [0x39BCD669] = {
@@ -46120,7 +46120,7 @@ local WEARABLE_STATES <const> = {
     [0x3A1231D0] = {
       `BASE`,
     },
-    [0x3A8190F2] = {
+    [`CLOTHING_F_R2_O3_HAT_000_TINT_006`] = {
       `BASE`,
     },
     [0x3A8E3217] = {
@@ -46141,7 +46141,7 @@ local WEARABLE_STATES <const> = {
     [0x3B6499DF] = {
       `BASE`,
     },
-    [0x3C1C53F8] = {
+    [`CLOTHING_ITEM_F_HAT_404_TINT_003`] = {
       `BASE`,
     },
     [0x3C446A7E] = {
@@ -46162,14 +46162,14 @@ local WEARABLE_STATES <const> = {
       `UNDER_GAUNTLET`,
       `UNDER_SLEEVE`,
     },
-    [0x3D6A3581] = {
+    [`CLOTHING_ITEM_F_EYEWEAR_402_TINT_006`] = {
       `BASE`,
       `UNDER_BANDANA`,
     },
     [0x3D9B900C] = {
       `BASE`,
     },
-    [0x3D9E4BDF] = {
+    [`CLOTHING_F_R3_O2_HAT_000_TINT_001`] = {
       `BASE`,
     },
     [0x3DA36BFA] = {
@@ -46201,7 +46201,7 @@ local WEARABLE_STATES <const> = {
       `BASE`,
       `SHORT_BOOTS_UNDER_PANTS`,
     },
-    [0x3FC3ED10] = {
+    [`CLOTHING_F_R1_O2_HAT_000_TINT_004`] = {
       `BASE`,
     },
     [0x3FE0C0A3] = {
@@ -46229,7 +46229,7 @@ local WEARABLE_STATES <const> = {
     [0x409EB1EB] = {
       `BASE`,
     },
-    [0x40E4F90A] = {
+    [`CLOTHING_ITEM_F_EYEWEAR_401_TINT_002`] = {
       `BASE`,
       `UNDER_BANDANA`,
     },
@@ -46281,7 +46281,7 @@ local WEARABLE_STATES <const> = {
     [0x42C5E811] = {
       `BASE`,
     },
-    [0x42E39460] = {
+    [`CLOTHING_F_R3_O3_HAT_000_TINT_003`] = {
       `BASE`,
     },
     [0x432048D8] = {
@@ -46290,13 +46290,13 @@ local WEARABLE_STATES <const> = {
     [0x433A60C1] = {
       `BASE`,
     },
-    [0x436C2137] = {
+    [`CLOTHING_ITEM_F_HAT_314_TINT_005`] = {
       `BASE`,
     },
     [0x439AF326] = {
       `BASE`,
     },
-    [0x439B0E13] = {
+    [`CLOTHING_ITEM_F_MASK_009_VAR_011`] = {
       `BASE`,
     },
     [0x43A5F8D1] = {
@@ -46368,14 +46368,14 @@ local WEARABLE_STATES <const> = {
     [0x46C8A911] = {
       `BASE`,
     },
-    [0x47241559] = {
+    [`CLOTHING_F_R3_O1_HAT_000_TINT_003`] = {
       `BASE`,
     },
-    [0x472F85A3] = {
+    [`CLOTHING_ITEM_F_EYEWEAR_401_TINT_008`] = {
       `BASE`,
       `UNDER_BANDANA`,
     },
-    [0x47651E7C] = {
+    [`CLOTHING_ITEM_F_HAT_401_TINT_000`] = {
       `BASE`,
     },
     [0x47C8C5A3] = {
@@ -46447,7 +46447,7 @@ local WEARABLE_STATES <const> = {
       `SHORT_SLEEVE_GLOVE`,
       `SHORT_SLEEVE_GUNSLINGER_GLOVE`,
     },
-    [0x4A01CEB0] = {
+    [`CLOTHING_ITEM_F_EYEWEAR_402_TINT_008`] = {
       `BASE`,
       `UNDER_BANDANA`,
     },
@@ -46587,7 +46587,7 @@ local WEARABLE_STATES <const> = {
       `BASE_COAT_OPEN`,
       `SKIRT`,
     },
-    [0x4F55EF4E] = {
+    [`CLOTHING_F_R3_O2_HAT_000_TINT_004`] = {
       `BASE`,
     },
     [0x4F660F7F] = {
@@ -46599,7 +46599,7 @@ local WEARABLE_STATES <const> = {
     [0x4F6BE92F] = {
       `BASE`,
     },
-    [0x4FC5DA68] = {
+    [`CLOTHING_ITEM_F_EYEWEAR_402_TINT_002`] = {
       `BASE`,
       `UNDER_BANDANA`,
     },
@@ -46609,14 +46609,14 @@ local WEARABLE_STATES <const> = {
       `BASE`,
       `BASE_SKIRT`,
     },
-    [0x50646DC0] = {
+    [`CLOTHING_F_R2_O2_HAT_000_TINT_001`] = {
       `BASE`,
     },
     [0x5110AF5A] = {
       `BASE`,
       `UNDER_BANDANA`,
     },
-    [0x513230FD] = {
+    [`CLOTHING_F_R3_O3_HAT_000_TINT_004`] = {
       `BASE`,
     },
     [0x517FB57C] = {
@@ -46645,7 +46645,7 @@ local WEARABLE_STATES <const> = {
     [0x51D9E0A8] = {
       `BASE`,
     },
-    [0x521C5921] = {
+    [`CLOTHING_F_R1_O3_HAT_000_TINT_005`] = {
       `BASE`,
     },
     [0x524C6972] = {
@@ -46670,7 +46670,7 @@ local WEARABLE_STATES <const> = {
       `DUELWIELD`,
       `DUELWIELD_SKIRT`,
     },
-    [0x52B09B8D] = {
+    [`CLOTHING_ITEM_F_coat_206_tint_007`] = {
       0x2C1BA29E,
       0x521490B7,
       0xB792C8CE,
@@ -46725,7 +46725,7 @@ local WEARABLE_STATES <const> = {
       `BASE_PONCHO`,
       `DUMMY`,
     },
-    [0x556AB1E6] = {
+    [`CLOTHING_F_R3_O1_HAT_000_TINT_002`] = {
       `BASE`,
     },
     [0x558A940F] = {
@@ -46752,20 +46752,20 @@ local WEARABLE_STATES <const> = {
       `UNDER_PANTS`,
       `UNDER_SKIRT`,
     },
-    [0x56B36813] = {
+    [`CLOTHING_ITEM_F_EYEWEAR_402_TINT_005`] = {
       `BASE`,
       `UNDER_BANDANA`,
     },
-    [0x56BF7E35] = {
+    [`CLOTHING_F_R3_O2_HAT_000_TINT_005`] = {
       `BASE`,
     },
-    [0x56C07A84] = {
+    [`CLOTHING_F_R2_O2_HAT_000_TINT_006`] = {
       `BASE`,
     },
     [0x56FFC054] = {
       `BASE`,
     },
-    [0x5733E318] = {
+    [`CLOTHING_ITEM_F_SEASONAL_000_BELT_000`] = {
       `BASE`,
     },
     [0x5750EC82] = {
@@ -46784,10 +46784,10 @@ local WEARABLE_STATES <const> = {
     [0x57C0AAFE] = {
       `BASE`,
     },
-    [0x581EFF7A] = {
+    [`CLOTHING_F_R2_O1_HAT_000_TINT_005`] = {
       `BASE`,
     },
-    [0x582300F4] = {
+    [`CLOTHING_F_R3_O2_HAT_000_TINT_003`] = {
       `BASE`,
     },
     [0x584BFF88] = {
@@ -46929,7 +46929,7 @@ local WEARABLE_STATES <const> = {
     [0x5DDCB4F0] = {
       `BASE`,
     },
-    [0x5E1980D1] = {
+    [`CLOTHING_F_SEASON3_NECKERCHIEF_012_TINT_016`] = {
       `BASE`,
       `BASE_SKIRT`,
       `DUELWIELD`,
@@ -46974,7 +46974,7 @@ local WEARABLE_STATES <const> = {
     [0x600CA5CB] = {
       `BASE`,
     },
-    [0x601BB663] = {
+    [`CLOTHING_ITEM_F_coat_206_tint_008`] = {
       0x2C1BA29E,
       0x521490B7,
       0xB792C8CE,
@@ -46987,7 +46987,7 @@ local WEARABLE_STATES <const> = {
     [0x603D8F0B] = {
       `BASE`,
     },
-    [0x60665CBB] = {
+    [`CLOTHING_F_R2_O3_HAT_000_TINT_005`] = {
       `BASE`,
     },
     [0x606C463E] = {
@@ -47008,10 +47008,10 @@ local WEARABLE_STATES <const> = {
       `UNDER_CHAPS`,
       `UNDER_SPATS`,
     },
-    [0x60FD76E3] = {
+    [`CLOTHING_F_R1_O3_HAT_000_TINT_006`] = {
       `BASE`,
     },
-    [0x610892C3] = {
+    [`CLOTHING_F_R3_O2_HAT_000_TINT_006`] = {
       `BASE`,
     },
     [0x612141B7] = {
@@ -47066,7 +47066,7 @@ local WEARABLE_STATES <const> = {
       `BASE`,
       `DUELWIELD`,
     },
-    [0x62B8B2FD] = {
+    [`CLOTHING_F_R1_O2_HAT_000_TINT_006`] = {
       `BASE`,
     },
     [0x63C43082] = {
@@ -47116,7 +47116,7 @@ local WEARABLE_STATES <const> = {
     [0x65EA9B32] = {
       `BASE`,
     },
-    [0x664F9BDF] = {
+    [`CLOTHING_F_R2_O1_HAT_000_TINT_006`] = {
       `BASE`,
     },
     [0x665BDC35] = {
@@ -47137,7 +47137,7 @@ local WEARABLE_STATES <const> = {
       `UNDER_PANTS`,
       `UNDER_SKIRT`,
     },
-    [0x67715D7B] = {
+    [`CLOTHING_F_R3_O3_HAT_000_TINT_005`] = {
       `BASE`,
     },
     [0x6781075F] = {
@@ -47333,13 +47333,13 @@ local WEARABLE_STATES <const> = {
     [0x6D79F05A] = {
       `BASE`,
     },
-    [0x6DD8760F] = {
+    [`CLOTHING_ITEM_F_HAT_314_TINT_003`] = {
       `BASE`,
     },
     [0x6E1A40D4] = {
       `BASE`,
     },
-    [0x6E355296] = {
+    [`CLOTHING_ITEM_F_coat_206_tint_009`] = {
       0x2C1BA29E,
       0x521490B7,
       0xB792C8CE,
@@ -47378,7 +47378,7 @@ local WEARABLE_STATES <const> = {
       `BASE`,
       `BASE_SKIRT`,
     },
-    [0x700824AE] = {
+    [`CLOTHING_F_SEASON3_NECKERCHIEF_012_TINT_017`] = {
       `BASE`,
       `BASE_SKIRT`,
       `DUELWIELD`,
@@ -47465,7 +47465,7 @@ local WEARABLE_STATES <const> = {
     [0x7349FB68] = {
       `BASE`,
     },
-    [0x7378B631] = {
+    [`CLOTHING_F_R2_O1_HAT_000_TINT_003`] = {
       `BASE`,
     },
     [0x7383DDCE] = {
@@ -47531,7 +47531,7 @@ local WEARABLE_STATES <const> = {
     [0x7562A55F] = {
       `BASE`,
     },
-    [0x7596F9C6] = {
+    [`CLOTHING_F_R3_O3_HAT_000_TINT_006`] = {
       `BASE`,
     },
     [0x75A700EC] = {
@@ -47567,7 +47567,7 @@ local WEARABLE_STATES <const> = {
     [0x76E63396] = {
       `BASE`,
     },
-    [0x7720DBCD] = {
+    [`CLOTHING_F_R1_O2_HAT_000_TINT_001`] = {
       `BASE`,
     },
     [0x7750FCAB] = {
@@ -47788,7 +47788,7 @@ local WEARABLE_STATES <const> = {
     [0x8166574A] = {
       `BASE`,
     },
-    [0x81A25284] = {
+    [`CLOTHING_F_R2_O1_HAT_000_TINT_004`] = {
       `BASE`,
     },
     [0x81EC7D0F] = {
@@ -47928,7 +47928,7 @@ local WEARABLE_STATES <const> = {
     [0x892B3415] = {
       `BASE`,
     },
-    [0x89908A80] = {
+    [`CLOTHING_ITEM_F_EYEWEAR_401_TINT_006`] = {
       `BASE`,
       `UNDER_BANDANA`,
     },
@@ -47975,7 +47975,7 @@ local WEARABLE_STATES <const> = {
     [0x8B28DDF2] = {
       `BASE`,
     },
-    [0x8B62044F] = {
+    [`CLOTHING_F_R1_O2_HAT_000_TINT_002`] = {
       `BASE`,
     },
     [0x8B835D9F] = {
@@ -48052,7 +48052,7 @@ local WEARABLE_STATES <const> = {
       `BASE`,
       `BASE_SKIRT`,
     },
-    [0x8FCA95B8] = {
+    [`CLOTHING_ITEM_F_coat_206_tint_003`] = {
       0x2C1BA29E,
       0x521490B7,
       0xB792C8CE,
@@ -48166,7 +48166,7 @@ local WEARABLE_STATES <const> = {
       `DUELWIELD`,
       `DUELWIELD_SKIRT`,
     },
-    [0x95024462] = {
+    [`CLOTHING_ITEM_F_HAT_314_TINT_006`] = {
       `BASE`,
     },
     [0x9594119A] = {
@@ -48298,7 +48298,7 @@ local WEARABLE_STATES <const> = {
       `UNDER_PANTS_COAT_302`,
       `UNDER_PANTS_COAT_OPEN`,
     },
-    [0x9A6F2C3D] = {
+    [`CLOTHING_ITEM_F_EYEWEAR_401_TINT_005`] = {
       `BASE`,
       `UNDER_BANDANA`,
     },
@@ -48345,7 +48345,7 @@ local WEARABLE_STATES <const> = {
     [0x9CB854D3] = {
       `BASE`,
     },
-    [0x9D013025] = {
+    [`CLOTHING_ITEM_F_coat_206_tint_002`] = {
       0x2C1BA29E,
       0x521490B7,
       0xB792C8CE,
@@ -48365,7 +48365,7 @@ local WEARABLE_STATES <const> = {
     [0x9D6106B9] = {
       `BASE`,
     },
-    [0x9DCC9834] = {
+    [`CLOTHING_F_R1_O1_HAT_000_TINT_006`] = {
       `BASE`,
     },
     [0x9E7E107A] = {
@@ -48389,7 +48389,7 @@ local WEARABLE_STATES <const> = {
     [0xA00EC847] = {
       `BASE`,
     },
-    [0xA068CF6D] = {
+    [`CLOTHING_F_R3_O3_HAT_000_TINT_001`] = {
       `BASE`,
     },
     [0xA09628E6] = {
@@ -48477,10 +48477,10 @@ local WEARABLE_STATES <const> = {
       `COAT_CLOSED`,
       `DUMMY`,
     },
-    [0xA530A61B] = {
+    [`CLOTHING_ITEM_F_HAT_404_TINT_006`] = {
       `BASE`,
     },
-    [0xA54041DF] = {
+    [`CLOTHING_ITEM_F_EYEWEAR_401_TINT_004`] = {
       `BASE`,
       `UNDER_BANDANA`,
     },
@@ -48573,7 +48573,7 @@ local WEARABLE_STATES <const> = {
     [0xAB18C686] = {
       `BASE`,
     },
-    [0xAB575DBE] = {
+    [`CLOTHING_F_R3_O1_HAT_000_TINT_005`] = {
       `BASE`,
     },
     [0xABBBDB3B] = {
@@ -48628,7 +48628,7 @@ local WEARABLE_STATES <const> = {
       `BASE`,
       `BASE_COAT_OPEN`,
     },
-    [0xAE7A6B90] = {
+    [`CLOTHING_F_R3_O3_HAT_000_TINT_002`] = {
       `BASE`,
     },
     [0xAE821EC5] = {
@@ -48701,7 +48701,7 @@ local WEARABLE_STATES <const> = {
       `BASE`,
       `DUMMY`,
     },
-    [0xB0663D67] = {
+    [`CLOTHING_F_R1_O1_HAT_000_TINT_005`] = {
       `BASE`,
     },
     [0xB07271FE] = {
@@ -48849,11 +48849,11 @@ local WEARABLE_STATES <const> = {
     [0xB7789258] = {
       `BASE`,
     },
-    [0xB7B2E6A8] = {
+    [`CLOTHING_ITEM_F_EYEWEAR_401_TINT_009`] = {
       `BASE`,
       `UNDER_BANDANA`,
     },
-    [0xB7EE76EC] = {
+    [`CLOTHING_F_R3_O1_HAT_000_TINT_004`] = {
       `BASE`,
     },
     [0xB7FD4C6A] = {
@@ -48878,7 +48878,7 @@ local WEARABLE_STATES <const> = {
       `BASE`,
       `UNDER_BANDANA`,
     },
-    [0xB99EE0C8] = {
+    [`CLOTHING_F_R1_O2_HAT_000_TINT_003`] = {
       `BASE`,
     },
     [0xB9A80097] = {
@@ -48983,7 +48983,7 @@ local WEARABLE_STATES <const> = {
       `BASE_COAT_OPEN`,
       `DUMMY`,
     },
-    [0xBEA9B23E] = {
+    [`CLOTHING_F_R1_O3_HAT_000_TINT_003`] = {
       `BASE`,
     },
     [0xBEB8F6CF] = {
@@ -49037,7 +49037,7 @@ local WEARABLE_STATES <const> = {
     [0xC1F389CF] = {
       `BASE`,
     },
-    [0xC258D1B3] = {
+    [`CLOTHING_F_R2_O2_HAT_000_TINT_004`] = {
       `BASE`,
     },
     [0xC27B462C] = {
@@ -49089,7 +49089,7 @@ local WEARABLE_STATES <const> = {
     [0xC460E442] = {
       `BASE`,
     },
-    [0xC46EFF08] = {
+    [`CLOTHING_ITEM_F_coat_206_tint_006`] = {
       0x2C1BA29E,
       0x521490B7,
       0xB792C8CE,
@@ -49305,7 +49305,7 @@ local WEARABLE_STATES <const> = {
     [0xCDDD8D8A] = {
       `BASE`,
     },
-    [0xCE16136E] = {
+    [`CLOTHING_ITEM_F_EYEWEAR_401_TINT_001`] = {
       `BASE`,
       `UNDER_BANDANA`,
     },
@@ -49331,7 +49331,7 @@ local WEARABLE_STATES <const> = {
     [0xCF141154] = {
       `BASE`,
     },
-    [0xCF14B88A] = {
+    [`CLOTHING_ITEM_F_HAT_314_TINT_002`] = {
       `BASE`,
     },
     [0xCF16A415] = {
@@ -49664,7 +49664,7 @@ local WEARABLE_STATES <const> = {
     [0xDF679A88] = {
       `BASE`,
     },
-    [0xDF8DB65D] = {
+    [`CLOTHING_ITEM_F_EYEWEAR_401_TINT_000`] = {
       `BASE`,
       `UNDER_BANDANA`,
     },
@@ -49683,7 +49683,7 @@ local WEARABLE_STATES <const> = {
     [0xE0996597] = {
       `BASE`,
     },
-    [0xE0A90E53] = {
+    [`CLOTHING_F_R2_O2_HAT_000_TINT_005`] = {
       `BASE`,
     },
     [0xE0ED6B0A] = {
@@ -49754,7 +49754,7 @@ local WEARABLE_STATES <const> = {
     [0xE57947FF] = {
       `BASE`,
     },
-    [0xE58BE578] = {
+    [`CLOTHING_ITEM_F_HAT_314_TINT_001`] = {
       `BASE`,
     },
     [0xE5C519FC] = {
@@ -49764,7 +49764,7 @@ local WEARABLE_STATES <const> = {
       `BASE`,
       `BASE_COAT_OPEN`,
     },
-    [0xE5E327E4] = {
+    [`CLOTHING_ITEM_F_coat_206_tint_010`] = {
       0x2C1BA29E,
       0x521490B7,
       0xB792C8CE,
@@ -49862,7 +49862,7 @@ local WEARABLE_STATES <const> = {
     [0xE97744BD] = {
       `BASE`,
     },
-    [0xE983919E] = {
+    [`CLOTHING_ITEM_F_SEASONAL_003_BELT_000`] = {
       `BASE`,
     },
     [0xEA14B53E] = {
@@ -49872,17 +49872,17 @@ local WEARABLE_STATES <const> = {
       `BASE`,
       `BASE_SKIRT`,
     },
-    [0xEA5A306D] = {
+    [`CLOTHING_ITEM_F_HAT_404_TINT_002`] = {
       `BASE`,
     },
-    [0xEAD49087] = {
+    [`CLOTHING_ITEM_F_EYEWEAR_402_TINT_004`] = {
       `BASE`,
       `UNDER_BANDANA`,
     },
-    [0xEB388B5F] = {
+    [`CLOTHING_F_R1_O3_HAT_000_TINT_001`] = {
       `BASE`,
     },
-    [0xEB59DDC2] = {
+    [`CLOTHING_F_R3_O1_HAT_000_TINT_001`] = {
       `BASE`,
     },
     [0xEB87CCBB] = {
@@ -49954,7 +49954,7 @@ local WEARABLE_STATES <const> = {
     [0xEEAA32BC] = {
       `BASE`,
     },
-    [0xEEC754D0] = {
+    [`CLOTHING_ITEM_F_EYEWEAR_401_TINT_007`] = {
       `BASE`,
       `UNDER_BANDANA`,
     },
@@ -50015,13 +50015,13 @@ local WEARABLE_STATES <const> = {
       `BASE`,
       `BASE_SKIRT`,
     },
-    [0xF2FAC1AE] = {
+    [`CLOTHING_ITEM_F_HAT_404_TINT_007`] = {
       `BASE`,
     },
     [0xF331235E] = {
       `BASE`,
     },
-    [0xF356DCD3] = {
+    [`CLOTHING_ITEM_F_coat_206_tint_005`] = {
       0x2C1BA29E,
       0x521490B7,
       0xB792C8CE,
@@ -50037,7 +50037,7 @@ local WEARABLE_STATES <const> = {
     [0xF3B4D9C9] = {
       `BASE`,
     },
-    [0xF3BB2224] = {
+    [`CLOTHING_ITEM_F_EYEWEAR_402_TINT_007`] = {
       `BASE`,
       `UNDER_BANDANA`,
     },
@@ -50050,7 +50050,7 @@ local WEARABLE_STATES <const> = {
     [0xF467E964] = {
       `BASE`,
     },
-    [0xF4B745FC] = {
+    [`CLOTHING_F_R1_O1_HAT_000_TINT_001`] = {
       `BASE`,
     },
     [0xF4C36F6E] = {
@@ -50135,7 +50135,7 @@ local WEARABLE_STATES <const> = {
     [0xF9796C19] = {
       `BASE`,
     },
-    [0xF98B2804] = {
+    [`CLOTHING_F_R1_O3_HAT_000_TINT_002`] = {
       `BASE`,
     },
     [0xF9A27536] = {
@@ -50223,7 +50223,7 @@ local WEARABLE_STATES <const> = {
       `OPEN_COLLAR_ROLLED_SLEEVE_CORSET`,
       `OPEN_COLLAR_ROLLED_SLEEVE_VEST`,
     },
-    [0xFC23C548] = {
+    [`CLOTHING_F_R2_O2_HAT_000_TINT_003`] = {
       `BASE`,
     },
     [0xFC3BD98C] = {
@@ -50236,10 +50236,10 @@ local WEARABLE_STATES <const> = {
       `BASE`,
       `DUELWIELD`,
     },
-    [0xFCB01550] = {
+    [`CLOTHING_F_R2_O3_HAT_000_TINT_003`] = {
       `BASE`,
     },
-    [0xFCB5E389] = {
+    [`CLOTHING_ITEM_F_NECKWEAR_401_TINT_000`] = {
       `BASE`,
       `MASK_UP`,
       `MASK_UP_XL`,
@@ -50280,7 +50280,7 @@ local WEARABLE_STATES <const> = {
     [0xFDEC1791] = {
       `BASE`,
     },
-    [0xFE0736EC] = {
+    [`CLOTHING_ITEM_F_EYEWEAR_402_TINT_001`] = {
       `BASE`,
       `UNDER_BANDANA`,
     },
@@ -50346,7 +50346,7 @@ local WEARABLE_STATES <const> = {
       `BASE`,
       `MASK_UP`,
     },
-    [`ADVERT_HEADER_WEAPONS_ACCS_LEFT_RIGHT`] = {
+    [0x1481E304] = {
       `BASE`,
     },
     [`CLOTHING_F_HALLOWEEN_BLINDFOLD_001_TINT_001`] = {
@@ -86774,7 +86774,7 @@ local WEARABLE_STATES <const> = {
       `BASE_PONCHO`,
       `DUMMY`,
     },
-    [`CLOTHING_STYLE_M_OUTLAW2_PANTS_203_PAGE`] = {
+    [0xC37CCCC2] = {
       `BASE`,
     },
   },
@@ -88678,7 +88678,7 @@ local WEARABLE_STATES <const> = {
       `BASE`,
       `UNDER_MASK`,
     },
-    [`HAT_MR1_062_C1_MERGE`] = {
+    [0xB9DC787B] = {
       `BASE`,
     },
     [`HORSE_EQUIPMENT_BIGVALLEY_DOUBLEFORK_SADDLE_000`] = {
